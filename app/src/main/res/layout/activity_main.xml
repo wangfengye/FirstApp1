@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.feng.firstapp.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_title"/>
+    <TextView
+       style="@style/desc"
+        android:text="必胜客(新世界店)"
+        android:textStyle="bold"/>
+    <TextView
+        style="@style/desc"
+        android:text="地址: 上海市黄浦区南京西路2-68号"/>
+    <TextView
+        style="@style/desc"
+        android:text="营业时间: 10:00--20:30"/>
+    <TextView
+        style="@style/desc"
+        android:text="联系方式: 18238776035"/>
+</LinearLayout>
